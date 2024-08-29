@@ -1,0 +1,38 @@
+
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    text-align: left;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+   flex: 50%; 
+    padding: 10px;
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+}
+
+.full-width {
+    flex: 100%;
+}
+
+.carrousel {
+    background-color: lightgray;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 100%;
+}
+
